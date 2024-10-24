@@ -1,5 +1,7 @@
 # common
 .idea
+.DS_Store
+__pycache__/
 
 # nuxtjs
 frontend/.nuxt/
