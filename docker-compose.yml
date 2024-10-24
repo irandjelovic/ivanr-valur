@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  api:
+    container_name: api
+    build:
+      context: ./backend
+    ports:
+      - "8009:8000"
+  web:
+    container_name: web
+    build:
+      context: ./frontend
+    ports:
+      - "3009:3000"
+    environment:
+      NODE_ENV: production

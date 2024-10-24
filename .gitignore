@@ -1,0 +1,10 @@
+# common
+.idea
+
+# nuxtjs
+frontend/.nuxt/
+frontend/node_modules/
+frontend/dist*
+
+# playwright
+frontend/test-results
